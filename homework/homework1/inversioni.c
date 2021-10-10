@@ -56,13 +56,13 @@ void merge(array_type *array_input,unsigned int starting,unsigned int middle_poi
 
 
     //+1 perchè dobbiamo considerare elemento 0
-    unsigned int size_left=middle_point-starting+1;          // costo=c1 volte 1
-    unsigned int size_right=end-middle_point;               // costo c2  volte 1
-    unsigned int i=0;                                       // costo c3 volte 1
-    unsigned int j=0;                                       //costo c4 volte 1
-    unsigned int k=starting;                                //costo c5 volte 1
-    array_type left[size_left];                             //costo c6 volte 1
-    array_type right[size_right];                           //costo c7 volte 1
+    unsigned int size_left=middle_point-starting+1;
+    unsigned int size_right=end-middle_point;
+    unsigned int i=0;
+    unsigned int j=0;                                       
+    unsigned int k=starting;
+    array_type left[size_left];
+    array_type right[size_right];
 
     //copia i due sottoarray.
     //printf("La dimensione è %u \n ,i bytes \n ",size_left,size_left*sizeof(array_type));
