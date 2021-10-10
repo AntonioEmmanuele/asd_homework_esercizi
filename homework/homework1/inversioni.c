@@ -2,7 +2,7 @@
 //  inversioni.c
 //
 //
-//  Created by Antonio Emmanuele on 10/10/2021.
+//  Created by Antonio Emmanuele,Giuseppe De Rosa on 10/10/2021.
 //
 
 #include <stdio.h>
