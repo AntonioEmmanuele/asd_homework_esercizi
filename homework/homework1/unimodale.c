@@ -37,7 +37,10 @@ int maximum_unimodale(array_type*array,unsigned int start, unsigned int end ){
         if array[middle-1]>array[middle] && array[middle]>array[middle+1]
             maximum_unimodale[array,left,middle-1]
 
-
+        ogni foglia ha sempre un solo figlio ed D(n)=C(n)=1
+        T(n)=T(n/2)+Theta(1)=T(n/2)+1
+        Quindi essendo pow[n,log2[1]]=1 ricadiamo nel secondo caso del M.T.
+        T(n)=Theta(n^log2(1)*log(n))=Theta(log(n))
   *********************************/
 
     //Array di un solo elemento
