@@ -1,5 +1,5 @@
 //
-//  main.cpp
+//  sudoku.cpp
 //  sudoku_backtracking
 //
 //  Created by Antonio Emmanuele on 08/11/2021.
