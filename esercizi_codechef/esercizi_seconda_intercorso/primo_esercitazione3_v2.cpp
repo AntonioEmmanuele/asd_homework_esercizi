@@ -22,7 +22,7 @@ per tagliare una trave.
 /* IN:
     LUNGHEZZA trave
     NUMERO tagli
-    TABLI
+    TAGLI
     se lunghezza=0 termina
     10
     4
