@@ -6,7 +6,8 @@ using namespace std;
 vector<unsigned int > actual_seq;
 static unsigned int  test[6]={0,1,2,3,3,4};
 vector<unsigned int> choices(test, test+sizeof(test)/sizeof(unsigned int));
-//Numero sottoproblemi : M ->numero colonne
+/
+/Numero sottoproblemi : M ->numero colonne
 //Guessing O(n) -> Numero righe
 //O(m*n)
 unsigned int costo_minimo(vector<vector<unsigned int> > matrix,vector <unsigned int>& sequence,unsigned int row, unsigned int col){
@@ -54,6 +55,7 @@ unsigned int costo_minimo(vector<vector<unsigned int> > matrix,vector <unsigned 
     return 0;
   }
 }
+
 int main(){
   ifstream file("matrici_2_3.txt");
   unsigned int row, col,i,j,costo;
