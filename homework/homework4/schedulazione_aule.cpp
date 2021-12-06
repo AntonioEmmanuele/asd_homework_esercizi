@@ -35,7 +35,7 @@ unsigned int min_aule(unsigned int jobs[][2],const unsigned int num_jobs){
   vector <unsigned int > aule;
 
   for(i=0;i<num_jobs;i++){
-    //Nel primo caso si dovrebbe notare che, essendo attuale tempo di finne infinito si  ha
+    //Nel primo caso si dovrebbe notare che, essendo attuale tempo di fine infinito si  ha
     //min (s0-inf)=-inf.
     //Esce negativo, quindi devo inserire una nuova aula.
     if(i==0){
