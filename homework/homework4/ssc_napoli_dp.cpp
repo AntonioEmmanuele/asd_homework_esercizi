@@ -54,7 +54,7 @@ bool isEmpty(vector<unsigned int > gradinate){
 }
 
 //DP[i,stato_gradinate]= DP[i+1,stato_gradinate] (qualora gruppi[i] non possa essere inserito)
-//DP[i,stato_gradinate]=max(gruppi[i]+DP[i+1,insert[stato_gradinate]],DP[i+1,stato_gradinate])
+//DP[i,stato_gradinate]=max(gruppi[i]+DP[i+1,insert[gruppi[i],stato_gradinate]],DP[i+1,stato_gradinate])
 
 //NB : Sto massimizzanndo le persone da fare entrare, per questo sommo gruppi[indice_gruppi],altrimenti sommerei 1
 // max_gruppi[gruppi, gradinate,dp,indice_gruppi,j]
