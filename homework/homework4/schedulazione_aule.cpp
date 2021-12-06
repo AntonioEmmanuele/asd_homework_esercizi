@@ -9,7 +9,7 @@ using namespace std;
 //nel caso in cui il job abbia un tempo di inizio maggiore o uguale del minimo tempo di fine bisogna  capire dove andare
 //ad inserirlo.
 //per farlo bisogna, similmente all'esempio dello scheduling in aula, andare a prenndere l'aula che mi fa ottenere il minimo scarto
-//ossia l'aula che mi minimizza le distanze min i (fj-si) i => aule già inserite.
+//ossia l'aula che mi minimizza le distanze min i (si-fj) i => aule già inserite.
 //Algoritmo:
 //Si fa notare che si usa un vettore per rappresenntare le aule allocate, essendo per ipotesi le aule innserite in input
 //con tempi di fine crescenti allora il primo elemento del vettore conterrà sempre il minimo tempo di fine
