@@ -61,7 +61,7 @@ unsigned int min_aule(unsigned int jobs[][2],const unsigned int num_jobs){
               }
           }
           //Inserisci il tempo di fine
-          aule[j]=jobs[i][1];
+          aule[slot]=jobs[i][1];
         }
     }
   }
