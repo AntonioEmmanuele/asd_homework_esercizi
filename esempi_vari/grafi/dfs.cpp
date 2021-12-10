@@ -14,7 +14,7 @@ using namespace std;
   cross edge->  arco tra due alberi diversi(cross)(grigio->nero con f[v]<d[u], ossia che abbiamo iniziato ad esplorare u in un altro albero )
   Tempi di inizio e fine hanno una struttura a parentesi.
 */
-/Partendo da un nodo u esegui una visita in profondità
+//Partendo da un nodo u esegui una visita in profondità
 //O(E)
 void dfs_visit(map<char,vector<char> > graph, map<char,unsigned int>& colors,char u,
   unsigned int &time,map<char,unsigned int> &d, map<char,unsigned int>&f,map<char,char>& predecessors){
