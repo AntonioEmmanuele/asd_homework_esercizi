@@ -49,10 +49,6 @@ map<char,int> dijkstra(map<char,vector<char> > graph,  map< char,vector<int> > w
   //per inserire un nuovo oggetto nell'hashmap  )
   //Stabilico il criterio di comparazione, ossia che v deve essere più piccolo di u, sto andando a fare un min heap
   auto cmp= [&d](char u,char v){  return d[v]<=d[u];};
-  /*if(cmp('E','D'))
-    cout<<" E è maggiore di D"<<endl;
-  else
-    cout<< " E è maggiore di D "<< endl;*/
   //dichiaro la coda
   //Il template vuole il tipo di elemennti, il reale contenitore che la coda vuole, il tipo della funzione di comparazione
   priority_queue<char, vector<char>,decltype(cmp)> q(cmp);
