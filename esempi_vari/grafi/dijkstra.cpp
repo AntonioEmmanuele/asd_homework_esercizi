@@ -75,7 +75,7 @@ map<char,int> dijkstra(map<char,vector<char> > graph,  map< char,vector<int> > w
 }
 
 int main(){
-  map<char, vector<char>> graph;
+  map<char, vector<char> > graph;
   map <char, vector<int>> w;
   char n_a[]={'B','C'};
   int c_a[]={10,3};
