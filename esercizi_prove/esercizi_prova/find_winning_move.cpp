@@ -78,7 +78,7 @@ bool is_a_solution(vector<vector<char > >board ){
 #endif
   return false;
 }
-
+//O((16-k)!)-> Da controllare
 bool solve(vector< vector<char > > board, char in,char winner, char loser,pair<int,int> &winning_pos){
 //  cout<<"Called"<<endl;
   if(is_a_solution(board)){ //O(n^2)
