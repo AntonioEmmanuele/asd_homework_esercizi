@@ -25,7 +25,7 @@ vector<int> costs){
   for(auto it=graph[source].cbegin();it!=graph[source].cend();++it){
     //Se il percorso è percorribile
     if(it->second <= max_c){
-        //Per ogni possibile ricarica che mi permetta di permettere il percorso e ricaricare a pieno la macchina
+        //Per ogni possibile ricarica che mi permetta di percorrere il percorso e ricaricare la macchina senza sforare il pieno
         for(unsigned int c=0;c<max_c;c++){
           if(actual_c+c >= it->second && actual_c+c <=max_c){
               int new_c=actual_c+c-it->second;

@@ -6,6 +6,7 @@ using namespace std;
 /*
   https://onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=1071
 */
+
 int solve(vector<vector <int> >& dp,vector <pair< int,int > > vals_weights,unsigned int idx,unsigned int idx_cap ,
   vector  <unsigned int> cap,vector<bool> available){
 
